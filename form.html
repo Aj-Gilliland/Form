@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table Example</title>
+</head>
+<strong>
+<body>
+
+<table border="1" style="width:565px;height:495px;font-size:35;" >
+    <tr>
+        <th colspan="2" style="font-size:30px;color:red;background-color:rgb(255, 244, 127);">Registration Form</th>
+    </tr>
+    <tr style="background-color:rgba(3,204,255,255)">
+        <td style="padding-left:10px;">Enter Name</td>
+        <td style="padding-left:10px;"><input type="text"></td>
+    </tr>
+    <tr style="background-color:rgba(3,204,255,255)">
+        <td style="padding-left:10px;">Enter Password</td>
+        <td  style="padding-left:10px;"><input type="password"></td>
+    </tr>
+    <tr style="background-color:rgba(3,204,255,255)">
+        <td style="padding-left:10px;">Enter Address</td>
+        <td  style="padding-left:10px;">
+            <textarea id="freeform" name="freeform" rows="4" cols="50">
+            </textarea>
+        </td>
+    </tr>
+    <tr style="background-color:rgba(3,204,255,255)">
+        <td style="padding-left:10px;">Select Game</td>
+        <td style="padding-left:10px;">
+            <input type="checkbox" id="Hockey" name="Hockey" value="Hockey">
+            <label for="Hockey">Hockey</label><br>
+
+            <input type="checkbox" id="Football" name="Football" value="Football">
+            <label for="Football">Football</label><br>
+
+            <input type="checkbox" id="Badminton" name="Badminton" value="Badminton">
+            <label for="Badminton">Badminton</label><br>
+
+            <input type="checkbox" id="Cricket" name="Cricket" value="Cricket">
+            <label for="Cricket">Cricket</label><br>
+
+            <input type="checkbox" id="volleyball" name="volleyball" value="volleyball">
+            <label for="volleyball">volleyball</label><br>
+        </td>
+    </tr>
+    <tr style="background-color:rgba(3,204,255,255)">
+        <td style="padding-left:10px;">Gender</td>
+        <td style="padding-left:10px;">
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </td>
+    </tr>
+    <tr style="background-color:rgba(3,204,255,255)">
+        <td style="padding-left:10px;">Select ur age</td>
+        <td style="padding-left:10px;">
+            <div class="age-input">
+                <input type="number" id="age" value="Select" min="1" max="120">
+            </div>
+        </td>
+    </tr>
+    <tr style="background-color:rgba(3,204,255,255)">
+        <td style="padding-left:10px;">Select Photo</td>
+        <td style="padding-left:10px;"><input type="file"></td>
+    </tr>
+    <tr style="background-color:rgba(3,204,255,255)">
+        <td  style="padding-left:10px;" colspan="2" align="center">
+            <button style="width:175px;height:40px;font-size:15px;" type="button">Click Me</button>
+            <button style="width:175px;height:40px;font-size:15px;" type="button">Reset</button>
+            <button style="width:175px;height:40px;font-size:15px;" type="button">Submit Form</button>
+        </td>
+    </tr>
+</table>
+
+</body>
+</strong>
+</html>
